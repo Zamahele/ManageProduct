@@ -29,6 +29,7 @@ namespace ManageProduct
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtCompanyName = new System.Windows.Forms.TextBox();
             this.txtContactName = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -57,19 +58,21 @@ namespace ManageProduct
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtSupplierID = new System.Windows.Forms.TextBox();
+            this.SupplierbindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SupplierbindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(277, 36);
+            this.txtCompanyName.Location = new System.Drawing.Point(291, 134);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(100, 23);
             this.txtCompanyName.TabIndex = 0;
             // 
             // txtContactName
             // 
-            this.txtContactName.Location = new System.Drawing.Point(277, 79);
+            this.txtContactName.Location = new System.Drawing.Point(291, 177);
             this.txtContactName.Name = "txtContactName";
             this.txtContactName.Size = new System.Drawing.Size(100, 23);
             this.txtContactName.TabIndex = 1;
@@ -83,21 +86,21 @@ namespace ManageProduct
             // 
             // txtContactTitle
             // 
-            this.txtContactTitle.Location = new System.Drawing.Point(277, 125);
+            this.txtContactTitle.Location = new System.Drawing.Point(291, 223);
             this.txtContactTitle.Name = "txtContactTitle";
             this.txtContactTitle.Size = new System.Drawing.Size(100, 23);
             this.txtContactTitle.TabIndex = 3;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(277, 168);
+            this.txtAddress.Location = new System.Drawing.Point(291, 266);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 23);
             this.txtAddress.TabIndex = 4;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(277, 206);
+            this.txtCity.Location = new System.Drawing.Point(291, 304);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(100, 23);
             this.txtCity.TabIndex = 5;
@@ -105,7 +108,7 @@ namespace ManageProduct
             // lblCompanyName
             // 
             this.lblCompanyName.AutoSize = true;
-            this.lblCompanyName.Location = new System.Drawing.Point(28, 36);
+            this.lblCompanyName.Location = new System.Drawing.Point(12, 105);
             this.lblCompanyName.Name = "lblCompanyName";
             this.lblCompanyName.Size = new System.Drawing.Size(94, 15);
             this.lblCompanyName.TabIndex = 6;
@@ -114,7 +117,7 @@ namespace ManageProduct
             // lblContactName
             // 
             this.lblContactName.AutoSize = true;
-            this.lblContactName.Location = new System.Drawing.Point(28, 79);
+            this.lblContactName.Location = new System.Drawing.Point(12, 148);
             this.lblContactName.Name = "lblContactName";
             this.lblContactName.Size = new System.Drawing.Size(84, 15);
             this.lblContactName.TabIndex = 7;
@@ -123,7 +126,7 @@ namespace ManageProduct
             // lblContactTitle
             // 
             this.lblContactTitle.AutoSize = true;
-            this.lblContactTitle.Location = new System.Drawing.Point(28, 125);
+            this.lblContactTitle.Location = new System.Drawing.Point(12, 194);
             this.lblContactTitle.Name = "lblContactTitle";
             this.lblContactTitle.Size = new System.Drawing.Size(74, 15);
             this.lblContactTitle.TabIndex = 8;
@@ -132,7 +135,7 @@ namespace ManageProduct
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(28, 168);
+            this.lblAddress.Location = new System.Drawing.Point(12, 237);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(49, 15);
             this.lblAddress.TabIndex = 9;
@@ -141,7 +144,7 @@ namespace ManageProduct
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(28, 206);
+            this.lblCity.Location = new System.Drawing.Point(12, 275);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(28, 15);
             this.lblCity.TabIndex = 10;
@@ -150,7 +153,7 @@ namespace ManageProduct
             // lblRegion
             // 
             this.lblRegion.AutoSize = true;
-            this.lblRegion.Location = new System.Drawing.Point(28, 236);
+            this.lblRegion.Location = new System.Drawing.Point(12, 305);
             this.lblRegion.Name = "lblRegion";
             this.lblRegion.Size = new System.Drawing.Size(44, 15);
             this.lblRegion.TabIndex = 11;
@@ -158,7 +161,7 @@ namespace ManageProduct
             // 
             // txtRegion
             // 
-            this.txtRegion.Location = new System.Drawing.Point(277, 236);
+            this.txtRegion.Location = new System.Drawing.Point(291, 334);
             this.txtRegion.Name = "txtRegion";
             this.txtRegion.Size = new System.Drawing.Size(100, 23);
             this.txtRegion.TabIndex = 12;
@@ -166,7 +169,7 @@ namespace ManageProduct
             // lblPostalCode
             // 
             this.lblPostalCode.AutoSize = true;
-            this.lblPostalCode.Location = new System.Drawing.Point(28, 280);
+            this.lblPostalCode.Location = new System.Drawing.Point(12, 349);
             this.lblPostalCode.Name = "lblPostalCode";
             this.lblPostalCode.Size = new System.Drawing.Size(70, 15);
             this.lblPostalCode.TabIndex = 13;
@@ -174,7 +177,7 @@ namespace ManageProduct
             // 
             // txtPostalCode
             // 
-            this.txtPostalCode.Location = new System.Drawing.Point(277, 280);
+            this.txtPostalCode.Location = new System.Drawing.Point(291, 378);
             this.txtPostalCode.Name = "txtPostalCode";
             this.txtPostalCode.Size = new System.Drawing.Size(100, 23);
             this.txtPostalCode.TabIndex = 14;
@@ -182,7 +185,7 @@ namespace ManageProduct
             // lblCountry
             // 
             this.lblCountry.AutoSize = true;
-            this.lblCountry.Location = new System.Drawing.Point(28, 317);
+            this.lblCountry.Location = new System.Drawing.Point(12, 386);
             this.lblCountry.Name = "lblCountry";
             this.lblCountry.Size = new System.Drawing.Size(50, 15);
             this.lblCountry.TabIndex = 15;
@@ -190,7 +193,7 @@ namespace ManageProduct
             // 
             // txtCountry
             // 
-            this.txtCountry.Location = new System.Drawing.Point(277, 317);
+            this.txtCountry.Location = new System.Drawing.Point(291, 415);
             this.txtCountry.Name = "txtCountry";
             this.txtCountry.Size = new System.Drawing.Size(100, 23);
             this.txtCountry.TabIndex = 16;
@@ -198,7 +201,7 @@ namespace ManageProduct
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 364);
+            this.label1.Location = new System.Drawing.Point(18, 433);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 17;
@@ -206,7 +209,7 @@ namespace ManageProduct
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(277, 364);
+            this.txtPhone.Location = new System.Drawing.Point(291, 462);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(100, 23);
             this.txtPhone.TabIndex = 18;
@@ -214,7 +217,7 @@ namespace ManageProduct
             // lblFax
             // 
             this.lblFax.AutoSize = true;
-            this.lblFax.Location = new System.Drawing.Point(28, 407);
+            this.lblFax.Location = new System.Drawing.Point(12, 476);
             this.lblFax.Name = "lblFax";
             this.lblFax.Size = new System.Drawing.Size(25, 15);
             this.lblFax.TabIndex = 19;
@@ -222,7 +225,7 @@ namespace ManageProduct
             // 
             // txtFax
             // 
-            this.txtFax.Location = new System.Drawing.Point(277, 407);
+            this.txtFax.Location = new System.Drawing.Point(291, 505);
             this.txtFax.Name = "txtFax";
             this.txtFax.Size = new System.Drawing.Size(100, 23);
             this.txtFax.TabIndex = 20;
@@ -230,7 +233,7 @@ namespace ManageProduct
             // lblHomePage
             // 
             this.lblHomePage.AutoSize = true;
-            this.lblHomePage.Location = new System.Drawing.Point(28, 452);
+            this.lblHomePage.Location = new System.Drawing.Point(12, 521);
             this.lblHomePage.Name = "lblHomePage";
             this.lblHomePage.Size = new System.Drawing.Size(69, 15);
             this.lblHomePage.TabIndex = 21;
@@ -238,14 +241,14 @@ namespace ManageProduct
             // 
             // txtHomePage
             // 
-            this.txtHomePage.Location = new System.Drawing.Point(278, 454);
+            this.txtHomePage.Location = new System.Drawing.Point(292, 552);
             this.txtHomePage.Name = "txtHomePage";
             this.txtHomePage.Size = new System.Drawing.Size(98, 23);
             this.txtHomePage.TabIndex = 22;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(461, 37);
+            this.btnSave.Location = new System.Drawing.Point(461, 236);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(101, 42);
             this.btnSave.TabIndex = 23;
@@ -255,7 +258,7 @@ namespace ManageProduct
             // 
             // dtnUpdate
             // 
-            this.dtnUpdate.Location = new System.Drawing.Point(715, 38);
+            this.dtnUpdate.Location = new System.Drawing.Point(715, 237);
             this.dtnUpdate.Name = "dtnUpdate";
             this.dtnUpdate.Size = new System.Drawing.Size(95, 42);
             this.dtnUpdate.TabIndex = 24;
@@ -265,7 +268,7 @@ namespace ManageProduct
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(958, 38);
+            this.btnDelete.Location = new System.Drawing.Point(958, 237);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(92, 41);
             this.btnDelete.TabIndex = 25;
@@ -276,16 +279,16 @@ namespace ManageProduct
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(461, 153);
+            this.dataGridView1.Location = new System.Drawing.Point(461, 327);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(589, 150);
             this.dataGridView1.TabIndex = 26;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-
+            // 
             // txtSupplierID
             // 
-            this.txtSupplierID.Location = new System.Drawing.Point(277, 7);
+            this.txtSupplierID.Location = new System.Drawing.Point(291, 105);
             this.txtSupplierID.Name = "txtSupplierID";
             this.txtSupplierID.Size = new System.Drawing.Size(98, 23);
             this.txtSupplierID.TabIndex = 27;
@@ -326,7 +329,36 @@ namespace ManageProduct
             this.Controls.Add(this.txtCompanyName);
             this.Name = "ManageSuppliers";
             this.Text = "ManageSuppliers";
+            this.Controls.SetChildIndex(this.txtCompanyName, 0);
+            this.Controls.SetChildIndex(this.txtContactName, 0);
+            this.Controls.SetChildIndex(this.textBox3, 0);
+            this.Controls.SetChildIndex(this.txtContactTitle, 0);
+            this.Controls.SetChildIndex(this.txtAddress, 0);
+            this.Controls.SetChildIndex(this.txtCity, 0);
+            this.Controls.SetChildIndex(this.lblCompanyName, 0);
+            this.Controls.SetChildIndex(this.lblContactName, 0);
+            this.Controls.SetChildIndex(this.lblContactTitle, 0);
+            this.Controls.SetChildIndex(this.lblAddress, 0);
+            this.Controls.SetChildIndex(this.lblCity, 0);
+            this.Controls.SetChildIndex(this.lblRegion, 0);
+            this.Controls.SetChildIndex(this.txtRegion, 0);
+            this.Controls.SetChildIndex(this.lblPostalCode, 0);
+            this.Controls.SetChildIndex(this.txtPostalCode, 0);
+            this.Controls.SetChildIndex(this.lblCountry, 0);
+            this.Controls.SetChildIndex(this.txtCountry, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.txtPhone, 0);
+            this.Controls.SetChildIndex(this.lblFax, 0);
+            this.Controls.SetChildIndex(this.txtFax, 0);
+            this.Controls.SetChildIndex(this.lblHomePage, 0);
+            this.Controls.SetChildIndex(this.txtHomePage, 0);
+            this.Controls.SetChildIndex(this.btnSave, 0);
+            this.Controls.SetChildIndex(this.dtnUpdate, 0);
+            this.Controls.SetChildIndex(this.btnDelete, 0);
+            this.Controls.SetChildIndex(this.dataGridView1, 0);
+            this.Controls.SetChildIndex(this.txtSupplierID, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SupplierbindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -362,5 +394,6 @@ namespace ManageProduct
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtSupplierID;
+        private System.Windows.Forms.BindingSource SupplierbindingSource;
     }
 }

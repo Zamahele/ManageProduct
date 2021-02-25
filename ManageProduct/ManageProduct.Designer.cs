@@ -59,7 +59,7 @@ namespace ManageProduct
             // lblProductName
             // 
             this.lblProductName.AutoSize = true;
-            this.lblProductName.Location = new System.Drawing.Point(47, 38);
+            this.lblProductName.Location = new System.Drawing.Point(37, 137);
             this.lblProductName.Name = "lblProductName";
             this.lblProductName.Size = new System.Drawing.Size(84, 15);
             this.lblProductName.TabIndex = 0;
@@ -67,7 +67,7 @@ namespace ManageProduct
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(201, 35);
+            this.txtProductName.Location = new System.Drawing.Point(224, 137);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(269, 23);
             this.txtProductName.TabIndex = 1;
@@ -75,7 +75,7 @@ namespace ManageProduct
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 92);
+            this.label1.Location = new System.Drawing.Point(37, 185);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 15);
             this.label1.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace ManageProduct
             // cbSupplierBox
             // 
             this.cbSupplierBox.FormattingEnabled = true;
-            this.cbSupplierBox.Location = new System.Drawing.Point(201, 84);
+            this.cbSupplierBox.Location = new System.Drawing.Point(224, 186);
             this.cbSupplierBox.Name = "cbSupplierBox";
             this.cbSupplierBox.Size = new System.Drawing.Size(269, 23);
             this.cbSupplierBox.TabIndex = 3;
@@ -92,7 +92,7 @@ namespace ManageProduct
             // lblCategory
             // 
             this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(47, 137);
+            this.lblCategory.Location = new System.Drawing.Point(37, 239);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(55, 15);
             this.lblCategory.TabIndex = 4;
@@ -101,7 +101,7 @@ namespace ManageProduct
             // cbCategoryBox
             // 
             this.cbCategoryBox.FormattingEnabled = true;
-            this.cbCategoryBox.Location = new System.Drawing.Point(201, 137);
+            this.cbCategoryBox.Location = new System.Drawing.Point(224, 239);
             this.cbCategoryBox.Name = "cbCategoryBox";
             this.cbCategoryBox.Size = new System.Drawing.Size(269, 23);
             this.cbCategoryBox.TabIndex = 5;
@@ -109,7 +109,7 @@ namespace ManageProduct
             // lblQuantityPerUnit
             // 
             this.lblQuantityPerUnit.AutoSize = true;
-            this.lblQuantityPerUnit.Location = new System.Drawing.Point(47, 205);
+            this.lblQuantityPerUnit.Location = new System.Drawing.Point(37, 304);
             this.lblQuantityPerUnit.Name = "lblQuantityPerUnit";
             this.lblQuantityPerUnit.Size = new System.Drawing.Size(98, 15);
             this.lblQuantityPerUnit.TabIndex = 6;
@@ -117,7 +117,7 @@ namespace ManageProduct
             // 
             // txtQuantityPerUnit
             // 
-            this.txtQuantityPerUnit.Location = new System.Drawing.Point(201, 202);
+            this.txtQuantityPerUnit.Location = new System.Drawing.Point(224, 304);
             this.txtQuantityPerUnit.Name = "txtQuantityPerUnit";
             this.txtQuantityPerUnit.Size = new System.Drawing.Size(269, 23);
             this.txtQuantityPerUnit.TabIndex = 7;
@@ -125,7 +125,7 @@ namespace ManageProduct
             // lblUnitPrice
             // 
             this.lblUnitPrice.AutoSize = true;
-            this.lblUnitPrice.Location = new System.Drawing.Point(47, 258);
+            this.lblUnitPrice.Location = new System.Drawing.Point(37, 352);
             this.lblUnitPrice.Name = "lblUnitPrice";
             this.lblUnitPrice.Size = new System.Drawing.Size(58, 15);
             this.lblUnitPrice.TabIndex = 8;
@@ -133,7 +133,7 @@ namespace ManageProduct
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(201, 250);
+            this.txtUnitPrice.Location = new System.Drawing.Point(224, 352);
             this.txtUnitPrice.Name = "txtUnitPrice";
             this.txtUnitPrice.Size = new System.Drawing.Size(269, 23);
             this.txtUnitPrice.TabIndex = 9;
@@ -141,7 +141,7 @@ namespace ManageProduct
             // lblUnitsInStock
             // 
             this.lblUnitsInStock.AutoSize = true;
-            this.lblUnitsInStock.Location = new System.Drawing.Point(47, 314);
+            this.lblUnitsInStock.Location = new System.Drawing.Point(37, 411);
             this.lblUnitsInStock.Name = "lblUnitsInStock";
             this.lblUnitsInStock.Size = new System.Drawing.Size(79, 15);
             this.lblUnitsInStock.TabIndex = 10;
@@ -149,7 +149,7 @@ namespace ManageProduct
             // 
             // txtUnitsInStock
             // 
-            this.txtUnitsInStock.Location = new System.Drawing.Point(201, 306);
+            this.txtUnitsInStock.Location = new System.Drawing.Point(224, 408);
             this.txtUnitsInStock.Name = "txtUnitsInStock";
             this.txtUnitsInStock.Size = new System.Drawing.Size(269, 23);
             this.txtUnitsInStock.TabIndex = 11;
@@ -157,7 +157,7 @@ namespace ManageProduct
             // lblUnitsOnOrder
             // 
             this.lblUnitsOnOrder.AutoSize = true;
-            this.lblUnitsOnOrder.Location = new System.Drawing.Point(47, 370);
+            this.lblUnitsOnOrder.Location = new System.Drawing.Point(37, 464);
             this.lblUnitsOnOrder.Name = "lblUnitsOnOrder";
             this.lblUnitsOnOrder.Size = new System.Drawing.Size(86, 15);
             this.lblUnitsOnOrder.TabIndex = 12;
@@ -165,7 +165,7 @@ namespace ManageProduct
             // 
             // txtUnitsOnOrder
             // 
-            this.txtUnitsOnOrder.Location = new System.Drawing.Point(201, 362);
+            this.txtUnitsOnOrder.Location = new System.Drawing.Point(224, 464);
             this.txtUnitsOnOrder.Name = "txtUnitsOnOrder";
             this.txtUnitsOnOrder.Size = new System.Drawing.Size(269, 23);
             this.txtUnitsOnOrder.TabIndex = 13;
@@ -173,7 +173,7 @@ namespace ManageProduct
             // lblReorderLevel
             // 
             this.lblReorderLevel.AutoSize = true;
-            this.lblReorderLevel.Location = new System.Drawing.Point(47, 423);
+            this.lblReorderLevel.Location = new System.Drawing.Point(37, 518);
             this.lblReorderLevel.Name = "lblReorderLevel";
             this.lblReorderLevel.Size = new System.Drawing.Size(78, 15);
             this.lblReorderLevel.TabIndex = 14;
@@ -181,7 +181,7 @@ namespace ManageProduct
             // 
             // txtReorderLevel
             // 
-            this.txtReorderLevel.Location = new System.Drawing.Point(201, 416);
+            this.txtReorderLevel.Location = new System.Drawing.Point(224, 518);
             this.txtReorderLevel.Name = "txtReorderLevel";
             this.txtReorderLevel.Size = new System.Drawing.Size(269, 23);
             this.txtReorderLevel.TabIndex = 15;
@@ -189,7 +189,7 @@ namespace ManageProduct
             // lblDiscontinued
             // 
             this.lblDiscontinued.AutoSize = true;
-            this.lblDiscontinued.Location = new System.Drawing.Point(47, 471);
+            this.lblDiscontinued.Location = new System.Drawing.Point(37, 565);
             this.lblDiscontinued.Name = "lblDiscontinued";
             this.lblDiscontinued.Size = new System.Drawing.Size(77, 15);
             this.lblDiscontinued.TabIndex = 16;
@@ -197,9 +197,9 @@ namespace ManageProduct
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(600, 45);
+            this.btnSave.Location = new System.Drawing.Point(537, 185);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(120, 54);
             this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -207,9 +207,9 @@ namespace ManageProduct
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(852, 45);
+            this.btnUpdate.Location = new System.Drawing.Point(798, 185);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(115, 54);
             this.btnUpdate.TabIndex = 19;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -217,9 +217,9 @@ namespace ManageProduct
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(1104, 45);
+            this.btnDelete.Location = new System.Drawing.Point(1079, 183);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(86, 54);
             this.btnDelete.TabIndex = 20;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -228,17 +228,17 @@ namespace ManageProduct
             // dataGridViewProduct
             // 
             this.dataGridViewProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProduct.Location = new System.Drawing.Point(600, 92);
+            this.dataGridViewProduct.Location = new System.Drawing.Point(537, 280);
             this.dataGridViewProduct.Name = "dataGridViewProduct";
             this.dataGridViewProduct.RowTemplate.Height = 25;
-            this.dataGridViewProduct.Size = new System.Drawing.Size(579, 197);
+            this.dataGridViewProduct.Size = new System.Drawing.Size(666, 197);
             this.dataGridViewProduct.TabIndex = 21;
             this.dataGridViewProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProduct_CellClick);
             // 
             // rbYes
             // 
             this.rbYes.AutoSize = true;
-            this.rbYes.Location = new System.Drawing.Point(224, 469);
+            this.rbYes.Location = new System.Drawing.Point(224, 565);
             this.rbYes.Name = "rbYes";
             this.rbYes.Size = new System.Drawing.Size(42, 19);
             this.rbYes.TabIndex = 22;
@@ -250,7 +250,7 @@ namespace ManageProduct
             // rbNo
             // 
             this.rbNo.AutoSize = true;
-            this.rbNo.Location = new System.Drawing.Point(224, 494);
+            this.rbNo.Location = new System.Drawing.Point(224, 604);
             this.rbNo.Name = "rbNo";
             this.rbNo.Size = new System.Drawing.Size(41, 19);
             this.rbNo.TabIndex = 23;
@@ -261,7 +261,7 @@ namespace ManageProduct
             // 
             // txtProductId
             // 
-            this.txtProductId.Location = new System.Drawing.Point(201, 6);
+            this.txtProductId.Location = new System.Drawing.Point(224, 108);
             this.txtProductId.Name = "txtProductId";
             this.txtProductId.Size = new System.Drawing.Size(269, 23);
             this.txtProductId.TabIndex = 24;
@@ -271,7 +271,7 @@ namespace ManageProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1246, 529);
+            this.ClientSize = new System.Drawing.Size(1291, 683);
             this.Controls.Add(this.txtProductId);
             this.Controls.Add(this.rbNo);
             this.Controls.Add(this.rbYes);

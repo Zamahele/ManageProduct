@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BLL.Supplier
 {
-    public class Supplier
+    public class Supplier 
     {
         public int SupplierID { get; set; }
+        [Required]
         public string CompanyName { get; set; }
         public string ContactName { get; set; }
         public string ContactTitle { get; set; }

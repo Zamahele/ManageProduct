@@ -18,8 +18,8 @@ namespace ManageProduct
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new ManageCategory());
-            Application.Run(new ManageSuppliers());
+            Application.Run(new ManageCategory());
+            //Application.Run(new MasterPage());
 
         }
     }

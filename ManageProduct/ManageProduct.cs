@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace ManageProduct
 {
-    public partial class ManageProduct : Form
+    public partial class ManageProduct : MasterPage
     {
         public ManageProduct()
         {

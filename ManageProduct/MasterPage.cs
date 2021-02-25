@@ -19,9 +19,26 @@ namespace ManageProduct
 
         private void btnManageProduct_Click(object sender, EventArgs e)
         {
-            new ManageProduct().Show();
-            this.Close();
-          
+            var product =  new ManageProduct();
+            product.Show();
+
+            this.Visible = false;
+        }
+
+        private void Supplier_Click(object sender, EventArgs e)
+        {
+            var suppliers = new ManageSuppliers();
+            suppliers.Show();
+
+            this.Visible = false;
+        }
+
+        private void btnCatergory_Click(object sender, EventArgs e)
+        {
+            var category = new ManageCategory();
+            category.Show();
+
+            this.Visible = false;
         }
     }
 }

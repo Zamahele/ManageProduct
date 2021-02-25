@@ -11,13 +11,15 @@ using System.Windows.Forms;
 
 namespace ManageProduct
 {
-    public partial class ManageSuppliers : Form
+    public partial class ManageSuppliers : MasterPage
     {
         public ManageSuppliers()
         {
             InitializeComponent();
             GridPopulate();
+             
         }
+
 
         public void GridPopulate()
         {

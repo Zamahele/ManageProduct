@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ManageProduct
 {
-    public partial class ManageCategory : Form
+    public partial class ManageCategory : MasterPage
     {
      
         public ManageCategory()
@@ -85,6 +85,6 @@ namespace ManageProduct
         {
             new CategoryLogic().Delete(Convert.ToInt32(txtCategoryID.Text));
             SetGrid();
-        }
+        }       
     }
 }
