@@ -85,6 +85,12 @@ namespace ManageProduct
         {
             new CategoryLogic().Delete(Convert.ToInt32(txtCategoryID.Text));
             SetGrid();
-        }       
+        }
+
+        private void btnUploadImage_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            
+        }
     }
 }

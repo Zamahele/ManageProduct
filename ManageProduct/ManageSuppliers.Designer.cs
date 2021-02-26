@@ -65,14 +65,14 @@ namespace ManageProduct
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(291, 134);
+            this.txtCompanyName.Location = new System.Drawing.Point(285, 97);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(100, 23);
             this.txtCompanyName.TabIndex = 0;
             // 
             // txtContactName
             // 
-            this.txtContactName.Location = new System.Drawing.Point(291, 177);
+            this.txtContactName.Location = new System.Drawing.Point(285, 143);
             this.txtContactName.Name = "txtContactName";
             this.txtContactName.Size = new System.Drawing.Size(100, 23);
             this.txtContactName.TabIndex = 1;
@@ -86,21 +86,21 @@ namespace ManageProduct
             // 
             // txtContactTitle
             // 
-            this.txtContactTitle.Location = new System.Drawing.Point(291, 223);
+            this.txtContactTitle.Location = new System.Drawing.Point(285, 186);
             this.txtContactTitle.Name = "txtContactTitle";
             this.txtContactTitle.Size = new System.Drawing.Size(100, 23);
             this.txtContactTitle.TabIndex = 3;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(291, 266);
+            this.txtAddress.Location = new System.Drawing.Point(284, 229);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 23);
             this.txtAddress.TabIndex = 4;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(291, 304);
+            this.txtCity.Location = new System.Drawing.Point(285, 259);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(100, 23);
             this.txtCity.TabIndex = 5;
@@ -161,7 +161,7 @@ namespace ManageProduct
             // 
             // txtRegion
             // 
-            this.txtRegion.Location = new System.Drawing.Point(291, 334);
+            this.txtRegion.Location = new System.Drawing.Point(285, 298);
             this.txtRegion.Name = "txtRegion";
             this.txtRegion.Size = new System.Drawing.Size(100, 23);
             this.txtRegion.TabIndex = 12;
@@ -177,7 +177,7 @@ namespace ManageProduct
             // 
             // txtPostalCode
             // 
-            this.txtPostalCode.Location = new System.Drawing.Point(291, 378);
+            this.txtPostalCode.Location = new System.Drawing.Point(285, 335);
             this.txtPostalCode.Name = "txtPostalCode";
             this.txtPostalCode.Size = new System.Drawing.Size(100, 23);
             this.txtPostalCode.TabIndex = 14;
@@ -193,7 +193,7 @@ namespace ManageProduct
             // 
             // txtCountry
             // 
-            this.txtCountry.Location = new System.Drawing.Point(291, 415);
+            this.txtCountry.Location = new System.Drawing.Point(285, 382);
             this.txtCountry.Name = "txtCountry";
             this.txtCountry.Size = new System.Drawing.Size(100, 23);
             this.txtCountry.TabIndex = 16;
@@ -209,7 +209,7 @@ namespace ManageProduct
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(291, 462);
+            this.txtPhone.Location = new System.Drawing.Point(285, 430);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(100, 23);
             this.txtPhone.TabIndex = 18;
@@ -225,7 +225,7 @@ namespace ManageProduct
             // 
             // txtFax
             // 
-            this.txtFax.Location = new System.Drawing.Point(291, 505);
+            this.txtFax.Location = new System.Drawing.Point(285, 470);
             this.txtFax.Name = "txtFax";
             this.txtFax.Size = new System.Drawing.Size(100, 23);
             this.txtFax.TabIndex = 20;
@@ -241,7 +241,7 @@ namespace ManageProduct
             // 
             // txtHomePage
             // 
-            this.txtHomePage.Location = new System.Drawing.Point(292, 552);
+            this.txtHomePage.Location = new System.Drawing.Point(285, 509);
             this.txtHomePage.Name = "txtHomePage";
             this.txtHomePage.Size = new System.Drawing.Size(98, 23);
             this.txtHomePage.TabIndex = 22;
@@ -288,7 +288,7 @@ namespace ManageProduct
             // 
             // txtSupplierID
             // 
-            this.txtSupplierID.Location = new System.Drawing.Point(291, 105);
+            this.txtSupplierID.Location = new System.Drawing.Point(285, 550);
             this.txtSupplierID.Name = "txtSupplierID";
             this.txtSupplierID.Size = new System.Drawing.Size(98, 23);
             this.txtSupplierID.TabIndex = 27;

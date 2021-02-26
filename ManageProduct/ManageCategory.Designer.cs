@@ -41,6 +41,7 @@ namespace ManageProduct
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtCategoryID = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -69,7 +70,7 @@ namespace ManageProduct
             this.txtCategoryName.Name = "txtCategoryName";
             this.txtCategoryName.Size = new System.Drawing.Size(207, 23);
             this.txtCategoryName.TabIndex = 2;
-           
+            // 
             // txtDescription
             // 
             this.txtDescription.Location = new System.Drawing.Point(290, 162);
@@ -186,5 +187,6 @@ namespace ManageProduct
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtCategoryID;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

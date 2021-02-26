@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using WebCoreCRUD.Models;
 
@@ -86,10 +88,33 @@ namespace WebCoreCRUD.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await using var connection = (SqlConnection)_context.Database.GetDbConnection();
+                var command = connection.CreateCommand();
+                command.CommandType = CommandType.StoredProcedure;
+                command.CommandText = "Product_Insert";
+                command.Parameters.AddWithValue("@ProductName", product.ProductName);
+                command.Parameters.AddWithValue("@SupplierID", product.SupplierID);
+                command.Parameters.AddWithValue("@CategoryID", product.CategoryID);
+                command.Parameters.AddWithValue("@QuantityPerUnit", product.QuantityPerUnit);
+                command.Parameters.AddWithValue("@UnitPrice", product.UnitPrice);
+                command.Parameters.AddWithValue("@UnitsInStock", product.UnitsInStock);
+                command.Parameters.AddWithValue("@UnitsOnOrder", product.UnitsOnOrder);
+                command.Parameters.AddWithValue("@ReorderLevel", product.ReorderLevel);
+                command.Parameters.AddWithValue("@Discontinued", product.Discontinued);
+                command.Parameters.AddWithValue("@ProductID", product.ProductID);
 
-            return CreatedAtAction("GetProduct", new { id = product.ProductID }, product);
+                connection.Open();
+                command.ExecuteNonQuery();
+
+
+                return CreatedAtAction("GetProduct", new { id = product.ProductID }, product);
+            }
+            catch (Exception c)
+            {
+                throw c;
+            }
         }
 
         // DELETE: api/Products/5

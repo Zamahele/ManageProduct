@@ -77,6 +77,7 @@ namespace WebCoreCRUD.Controllers
         [HttpPost]
         public async Task<ActionResult<Category>> PostCategory(Category category)
         {
+
             _context.categories.Add(category);
             await _context.SaveChangesAsync();
 
